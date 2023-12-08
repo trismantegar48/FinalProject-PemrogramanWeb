@@ -1,0 +1,183 @@
+Home CSS
+
+/* Navbar
+a{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-right: 10px ;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.tombol{
+    border-radius: 20px;
+    background-color: #696626;
+    border-color: #696626;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: auto;
+    font-size: small;
+    z-index: 1;
+    position: relative;
+} */
+/* navbar end */
+
+/* carousel */
+
+
+.carousel1 {
+    border-radius: 3rem;
+}
+.carousel-caption h5{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    z-index: 1;
+    position: relative;
+}
+.carousel-caption .display-2{
+    font-size: 10px;
+    font-weight: 200;
+    line-height: 1.9;
+    z-index: 1;
+    position: relative;
+}
+.carousel-caption .display-2 span{
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    z-index: 1;
+    position: relative;
+}
+/* carousel end */
+
+/* testimoni start */
+.site-section {
+    padding: 2.5em 0; }
+    @media (min-width: 768px) {
+      .site-section {
+        padding: 5em 0; }
+    }
+.site-section.site-section-sm {
+      padding: 4em 0;
+}
+
+.site-section-heading {
+    font-size: 30px;
+    color: #25262a;
+    position: relative;
+}
+.site-section-heading:before {
+      content: "";
+      left: 0%;
+      top: 0;
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background: #7971ea;
+}
+.site-section-heading.text-center:before {
+      content: '';
+      left: 50%;
+      top: 0;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background: #7971ea;
+}
+/* testimoni end */
+
+/* sales section */
+.salessection h3{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+.salessection p{
+    font-size: 20px;
+    font-weight: 300;
+    color:  rgb(255, 255, 255);
+}
+/* sales end */
+
+/* Responsive CSS for desktop */
+@media (min-width:992px) {
+    .nav-link:hover::after{
+        /* hiasan tombol navbar */
+        border-bottom: 3px solid #696626;
+        content: '';
+        display: block;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .navbar-brand, .nav-link{
+        color: #656464;
+    }
+    /* Carousel */
+    .carousel-caption{
+        bottom: 200px;
+        z-index: 2;
+    }
+    .carousel-caption h5{
+        font-size: 45px;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+    .carousel-caption .display-2{
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 1.9;
+    }
+    .carousel-caption .display-2 span{
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .carousel-item::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 3rem;
+        top: 0;
+        left: 0;
+        background: rgb(0, 0, 0, 0.7 );
+        z-index: 1;
+    }
+    .tombol{
+        border-radius: 40px;
+        font-size: medium;
+        background-color: #696626;
+        border-color: #696626;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: auto;
+    }
+
+    /* sales section */
+    .salessection{
+        padding: 4rem;
+    }
+    .salessection h3{
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+    }
+    .salessection p{
+        font-size: 20px;
+        font-weight: 300;
+        color:  rgb(255, 255, 255);
+    }
+    /* sales end */
+}
+
+/* responsive web css end */
+
